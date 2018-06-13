@@ -1,0 +1,29 @@
+{
+  "name": "voice-engine-js-hydra-demo",
+  "version": "0.0.0",
+  "description": "Voice Engine JS demo to access Hydra APIs",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bergos/voice-engine-js-hydra-demo.git"
+  },
+  "keywords": [],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bergos/voice-engine-js-hydra-demo/issues"
+  },
+  "homepage": "https://github.com/bergos/voice-engine-js-hydra-demo",
+  "dependencies": {
+    "@voice-engine/core": "git://github.com/voice-engine-js/voice-engine-js-core.git#master",
+    "@voice-engine/respeakerd": "git://github.com/voice-engine-js/voice-engine-js-respeakerd.git#master",
+    "@voice-engine/stt-google": "git://github.com/voice-engine-js/voice-engine-js-stt-google.git#master",
+    "commander": "^2.15.1",
+    "compromise": "^11.9.1",
+    "elasticlunr": "^0.9.5",
+    "hydra-fetch": "git://github.com/bergos/hydra-fetch.git#develop",
+    "rdf-ext": "^1.1.0",
+    "simplerdf-core": "^1.4.1"
+  },
+  "devDependencies": {}
+}
